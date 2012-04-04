@@ -1,0 +1,8 @@
+#BloggerBlogBundle_homepage:
+#    pattern:  /hello/{name}
+#    defaults: { _controller: BloggerBlogBundle:Default:index }
+BloggerBlogBundle_homepage:
+    pattern:  /
+    defaults: { _controller: BloggerBlogBundle:Page:index }
+    requirements:
+        _method:  GET

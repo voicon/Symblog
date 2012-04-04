@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry excluding="app/cache|app/logs" kind="src" path="app"/>
+	<buildpathentry kind="src" path="src"/>
+	<buildpathentry excluding="bundles/Sensio/Bundle/GeneratorBundle/Resources/skeleton/" kind="src" path="vendor"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>
